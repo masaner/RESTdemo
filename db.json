@@ -18,6 +18,20 @@
     "name": "typicode"
   },
   "231":{
-    "xx":"xx"
+    "SUMA":[{"BUKRS":"1","KUNR":"2"}],
+    "ALAN2":"1241515",
+    "ALAN3":1241515,
+    "DATEFIELD":12-24-2022T-500Z,
+    "LISTOFITEMS":
+    [
+      { "id": 1, "title": "Post 1"},
+      { "id": 2, "title": "Post 2"},
+      { "id": 3, "title": "Post 3"},
+      { "id": 4, "title": "Post 4"},
+      { "id": 5, "title": "Post 1"},
+      { "id": 6, "title": "Post 2"},
+      { "id": 7, "title": "Post 3"},
+      { "id": 8, "title": "Post 4"}
+    ],
   }
 }
