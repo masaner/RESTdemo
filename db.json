@@ -28,6 +28,17 @@
              "PROVI":"12.00",
              "KULLB":"113.50",
              "WAERS":"USD"
+            },
+           {"BUKRS":"XYZ",
+             "KUNNR":"0000136811",
+             "KUNNR_T":"Fake Company",
+             "KZPUA":"100.00",
+             "HRPUA":"00",
+             "KZPUA_R":"00",
+             "HRPUA_R":"00",
+             "PROVI":"12.00",
+             "KULLB":"113.50",
+             "WAERS":"USD"
             }],
     "ET_RETURN":[{"TYPE":"S",
                   "MESSAGE":"Data Retrieved Succesfully"}]
