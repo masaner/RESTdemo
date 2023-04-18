@@ -18,20 +18,19 @@
     "name": "typicode"
   },
   "231":{
-    "SUMA":[{"BUKRS":"1","KUNR":"2"}],
-    "ALAN2":"1241515",
-    "ALAN3":1241515,
-    "DATEFIELD":12-24-2022T-500Z,
-    "LISTOFITEMS":
-    [
-      { "id": 1, "title": "Post 1"},
-      { "id": 2, "title": "Post 2"},
-      { "id": 3, "title": "Post 3"},
-      { "id": 4, "title": "Post 4"},
-      { "id": 5, "title": "Post 1"},
-      { "id": 6, "title": "Post 2"},
-      { "id": 7, "title": "Post 3"},
-      { "id": 8, "title": "Post 4"}
-    ],
+    "SUMA":[{"BUKRS":"ABC",
+             "KUNNR":"0000110054",
+             "KUNNR_T":"Fake Company",
+             "KZPUA":"125.50",
+             "HRPUA":"00",
+             "KZPUA_R":"00",
+             "HRPUA_R":"00",
+             "PROVI":"12.00",
+             "KULLB":"113.50",
+             "WAERS":"USD"
+            }],
+    "ET_RETURN":[{"TYPE":"1",
+                  "MESSAGE":"2"}]
+    
   }
 }
