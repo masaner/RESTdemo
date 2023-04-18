@@ -29,8 +29,8 @@
              "KULLB":"113.50",
              "WAERS":"USD"
             }],
-    "ET_RETURN":[{"TYPE":"1",
-                  "MESSAGE":"2"}]
+    "ET_RETURN":[{"TYPE":"S",
+                  "MESSAGE":"Data Retrieved Succesfully"}]
     
   }
 }
