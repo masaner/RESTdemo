@@ -40,8 +40,44 @@
              "KULLB":"113.50",
              "WAERS":"USD"
             }],
-    "ET_RETURN":[{"TYPE":"S",
-                  "MESSAGE":"Data Retrieved Succesfully"}]
+    "ET_RETURN":[
+      {
+              "TYPE":"S",
+              "MESSAGE":"Data Retrieved Succesfully"}]
     
-  }
+  },
+  "232":{
+  "ET_LIST": [
+    {
+      "MATNR": "100001",
+      "MATNR_T": "Product A",
+      "VRKME": "EA",
+      "KPEIN": "1",
+      "KMEIN": "EA",
+      "KBETR": "10.00",
+      "WAERS": "USD",
+      "KNUMH": "12345",
+      "DATAB": "2022-01-01",
+      "DATBI": "2022-12-31"
+    },
+    {
+      "MATNR": "100002",
+      "MATNR_T": "Product B",
+      "VRKME": "EA",
+      "KPEIN": "1",
+      "KMEIN": "EA",
+      "KBETR": "20.00",
+      "WAERS": "USD",
+      "KNUMH": "12345",
+      "DATAB": "2022-01-01",
+      "DATBI": "2022-12-31"
+    }
+  ],
+  "ET_RETURN": [
+    {
+      "TYPE": "S",
+      "MESSAGE": "Data Retrieved Successfully"
+    }
+  ]
+}
 }
