@@ -100,5 +100,9 @@
 			"fullName": "aleyna aslanboga",
 			"website": "www.aleyna.com"
 		}
-	]
+	],
+	"xmlContent": {
+		"name": "xyz",
+		"details": "<?xml version='1.0' encoding='UTF-8'?><ns0:Report xmlns:ns0='http://www.khisko.com/triTypes'><StackTrace>Job-8004 Error in [xxxxxxxxxx]Output data invalid&#xD;at com.xyz.tst.a(Unknown Source)&#xD;caused by: java.lang.NullPointerException&#xD;</StackTrace><Msg>Output data invalid</Msg></ns0:Report>"
+	}
 }
