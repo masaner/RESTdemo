@@ -101,8 +101,9 @@
 			"website": "www.aleyna.com"
 		}
 	],
-	"xmlContent": {
-		"name": "xyz",
-		"details": "<records><record><customerCode>001</customerCode><fullName>meric asaner</fullName><website>www.meric.com</website></record><record><customerCode>002</customerCode><fullName>zeytin cico</fullName><website>www.cico.com</website></record><record><customerCode>003</customerCode><fullName>aleyna aslanboga</fullName><website>www.aleyna.com</website></record></records>"
+	"restApiContent": {
+		"name": "Will Be Used To Test APIs",
+		"csv":"customerCode,fullName,website\n001,Meric Asaner,www.meric.com\n002,Zeytin Cico,www.zeytincico.com\n003,Aleyna Asaner Aslanboga,www.aleyna.com",
+		"xml": "<records><record><customerCode>001</customerCode><fullName>meric asaner</fullName><website>www.meric.com</website></record><record><customerCode>002</customerCode><fullName>zeytin cico</fullName><website>www.cico.com</website></record><record><customerCode>003</customerCode><fullName>aleyna aslanboga</fullName><website>www.aleyna.com</website></record></records>"
 	}
 }
