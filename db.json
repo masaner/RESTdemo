@@ -103,6 +103,6 @@
 	],
 	"xmlContent": {
 		"name": "xyz",
-		"details": "<?xml version='1.0' encoding='UTF-8'?><ns0:Report xmlns:ns0='http://www.khisko.com/triTypes'><StackTrace>Job-8004 Error in [xxxxxxxxxx]Output data invalid&#xD;at com.xyz.tst.a(Unknown Source)&#xD;caused by: java.lang.NullPointerException&#xD;</StackTrace><Msg>Output data invalid</Msg></ns0:Report>"
+		"details": "<records><record><customerCode>001</customerCode><fullName>meric asaner</fullName><website>www.meric.com</website></record><record><customerCode>002</customerCode><fullName>zeytin cico</fullName><website>www.cico.com</website></record><record><customerCode>003</customerCode><fullName>aleyna aslanboga</fullName><website>www.aleyna.com</website></record></records>"
 	}
 }
