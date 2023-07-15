@@ -1,83 +1,141 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1"},
-    { "id": 2, "title": "Post 2"},
-    { "id": 3, "title": "Post 3"},
-    { "id": 4, "title": "Post 4"},
-    { "id": 5, "title": "Post 1"},
-    { "id": 6, "title": "Post 2"},
-    { "id": 7, "title": "Post 3"},
-    { "id": 8, "title": "Post 4"}
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 },
-    { "id": 3, "body": "some comment", "postId": 3 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "231":{
-    "SUMA":[{"BUKRS":"ABC",
-             "KUNNR":"0000110051",
-             "KUNNR_T":"Fake Company",
-             "KZPUA":"125.50",
-             "HRPUA":"00",
-             "KZPUA_R":"00",
-             "HRPUA_R":"00",
-             "PROVI":"12.00",
-             "KULLB":"113.50",
-             "WAERS":"USD"
-            },
-           {"BUKRS":"XYZ",
-             "KUNNR":"0000136811",
-             "KUNNR_T":"Fake Company",
-             "KZPUA":"100.00",
-             "HRPUA":"00",
-             "KZPUA_R":"00",
-             "HRPUA_R":"00",
-             "PROVI":"12.00",
-             "KULLB":"113.50",
-             "WAERS":"USD"
-            }],
-    "ET_RETURN":[
-      {
-              "TYPE":"S",
-              "MESSAGE":"Data Retrieved Succesfully"}]
-    
-  },
-  "232":{
-  "ET_LIST": [
-    {
-      "MATNR": "100001",
-      "MATNR_T": "Product A",
-      "VRKME": "EA",
-      "KPEIN": "1",
-      "KMEIN": "EA",
-      "KBETR": "10.00",
-      "WAERS": "USD",
-      "KNUMH": "12345",
-      "DATAB": "2022-01-01",
-      "DATBI": "2022-12-31"
-    },
-    {
-      "MATNR": "100002",
-      "MATNR_T": "Product B",
-      "VRKME": "EA",
-      "KPEIN": "1",
-      "KMEIN": "EA",
-      "KBETR": "20.00",
-      "WAERS": "USD",
-      "KNUMH": "12345",
-      "DATAB": "2022-01-01",
-      "DATBI": "2022-12-31"
-    }
-  ],
-  "ET_RETURN": [
-    {
-      "TYPE": "S",
-      "MESSAGE": "Data Retrieved Successfully"
-    }
-  ]
-}
+	"posts": [
+		{
+			"id": 1,
+			"title": "Post 1"
+		},
+		{
+			"id": 2,
+			"title": "Post 2"
+		},
+		{
+			"id": 3,
+			"title": "Post 3"
+		},
+		{
+			"id": 4,
+			"title": "Post 4"
+		},
+		{
+			"id": 5,
+			"title": "Post 1"
+		},
+		{
+			"id": 6,
+			"title": "Post 2"
+		},
+		{
+			"id": 7,
+			"title": "Post 3"
+		},
+		{
+			"id": 8,
+			"title": "Post 4"
+		}
+	],
+	"comments": [
+		{
+			"id": 1,
+			"body": "some comment",
+			"postId": 1
+		},
+		{
+			"id": 2,
+			"body": "some comment",
+			"postId": 1
+		},
+		{
+			"id": 3,
+			"body": "some comment",
+			"postId": 3
+		}
+	],
+	"profile": {
+		"name": "typicode"
+	},
+	"231": {
+		"SUMA": [
+			{
+				"BUKRS": "ABC",
+				"KUNNR": "0000110051",
+				"KUNNR_T": "Fake Company",
+				"KZPUA": "125.50",
+				"HRPUA": "00",
+				"KZPUA_R": "00",
+				"HRPUA_R": "00",
+				"PROVI": "12.00",
+				"KULLB": "113.50",
+				"WAERS": "USD"
+			},
+			{
+				"BUKRS": "XYZ",
+				"KUNNR": "0000136811",
+				"KUNNR_T": "Fake Company",
+				"KZPUA": "100.00",
+				"HRPUA": "00",
+				"KZPUA_R": "00",
+				"HRPUA_R": "00",
+				"PROVI": "12.00",
+				"KULLB": "113.50",
+				"WAERS": "USD"
+			}
+		],
+		"ET_RETURN": [
+			{
+				"TYPE": "S",
+				"MESSAGE": "Data Retrieved Succesfully"
+			}
+		]
+	},
+	"232": {
+		"ET_LIST": [
+			{
+				"MATNR": "100001",
+				"MATNR_T": "Product A",
+				"VRKME": "EA",
+				"KPEIN": "1",
+				"KMEIN": "EA",
+				"KBETR": "10.00",
+				"WAERS": "USD",
+				"KNUMH": "12345",
+				"DATAB": "2022-01-01",
+				"DATBI": "2022-12-31"
+			},
+			{
+				"MATNR": "100002",
+				"MATNR_T": "Product B",
+				"VRKME": "EA",
+				"KPEIN": "1",
+				"KMEIN": "EA",
+				"KBETR": "20.00",
+				"WAERS": "USD",
+				"KNUMH": "12345",
+				"DATAB": "2022-01-01",
+				"DATBI": "2022-12-31"
+			}
+		],
+		"ET_RETURN": [
+			{
+				"TYPE": "S",
+				"MESSAGE": "Data Retrieved Successfully"
+			}
+		]
+	},
+	"dataweave": [
+		{
+			"customerCode": "001",
+			"fullName": "meric asaner",
+			"website": "www.meric.com"
+		},
+		{
+			"customerCode": "002",
+			"fullName": "zeytin cico",
+			"website": "www.cico.com"
+		},
+		{
+			"customerCode": "003",
+			"fullName": "aleyna aslanboga",
+			"website": "www.aleyna.com"
+		},
+	],
 }
